@@ -1,0 +1,27 @@
+.block{
+    border: 3px solid black;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    background: url(../img/i.webp) center / auto 300px no-repeat, linear-gradient(90deg, #f598a8, #f6edb2);
+}
+
+
+/* 2-способ выполнения: */
+
+
+.block-2{
+    border: 3px solid black;
+    margin: 50px auto;
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 150px;
+}
